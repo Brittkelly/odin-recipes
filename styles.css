@@ -1,0 +1,20 @@
+/* Remove default margin and padding from all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Set body spacing and line height */
+body {
+    margin: 20px; /* Adds space around the edges of the page */
+    padding: 10px; /* Adds space inside the body, around the content */
+    line-height: 1.6; /* Adjusts the space between lines */
+}
+:root {
+    --main-padding: 20px;
+    --main-margin: 15px;
+}
+p {
+    margin: var(--main-margin);
+}
+
+
