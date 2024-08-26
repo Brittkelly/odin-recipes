@@ -1,15 +1,38 @@
-/* Set body spacing and line height */
-body {
-    margin: 20px; /* Adds space around the edges of the page */
-    padding: 10px; /* Adds space inside the body, around the content */
-    line-height: 1.6; /* Adjusts the space between lines */
-}
-:root {
-    --main-padding: 20px;
-    --main-margin: 15px;
-}
-p {
-    margin: var(--main-margin);
-}
+/* Styles specific to the index.html file */
+
+body.index {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    text-align: center; /* Center all text */
+    margin-top: 50px; /* Margin from the top */
+  }
+  
+.index h1 {
+    color: #2c3e50; /* Dark blue-gray for the header */
+    font-size: 3em;
+  }
+  
+.index ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+.index li {
+    margin: 10px 0; /* Space between list items */
+  }
+  
+.index a {
+    text-decoration: none; /* Remove underline */
+    color: #2980b9; /* Blue for links */
+    font-size: 1.2em;
+    transition: color 0.3s; /* Smooth transition for hover */
+  }
+  
+.index a:hover {
+    color: #e74c3c; /* Red for hover */
+  }
+
+
+
 
 
